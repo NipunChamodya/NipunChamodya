@@ -1,134 +1,224 @@
+
 <div align="center">
 
-<img src="assets/liquid-glass-header.svg" alt="Nipun Chamodya — Software Engineering, Security and Systems" width="100%">
-
-<a href="https://github.com/NipunChamodya?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE_PROJECTS-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects">
-</a>
 <a href="https://github.com/NipunChamodya">
-  <img src="https://img.shields.io/badge/GITHUB_PROFILE-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile">
+  <img src="assets/security-lab-header.svg" width="100%" alt="NCK Security Lab"/>
 </a>
 
-<br>
+<p>
+  <img src="https://img.shields.io/badge/STATUS-LEARNING_IN_PUBLIC-68E985?style=for-the-badge&labelColor=050806" alt="Status"/>
+  <img src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-68E985?style=for-the-badge&labelColor=050806" alt="Focus"/>
+  <img src="https://img.shields.io/badge/MODE-ETHICAL_RESEARCH-68E985?style=for-the-badge&labelColor=050806" alt="Mode"/>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=7DD3FC&center=true&vCenter=true&width=700&lines=Software+Engineering+%2F%2F+Security+%2F%2F+Systems;Build+with+curiosity.+Debug+with+purpose.;Understand+the+system.+Improve+the+solution." alt="Animated typing tagline">
+`APPLICATION SECURITY` · `NETWORKING` · `REVERSE ENGINEERING`
 
 </div>
 
 ---
 
-## `01 / ABOUT`
-
-I'm a final-year Software Engineering student from Sri Lanka interested in building practical software and understanding how systems behave beneath the surface.
-
-- **Engineering** — software design, object-oriented programming, testing, and maintainable code.
-- **Security** — application security, networking, and ethical security research.
-- **Systems** — local services, data handling, and how components communicate.
-- **Product craft** — native macOS and Android apps with thoughtful user experiences.
-
-## `02 / PROJECT EXPLORER`
-
-Use the category links to jump to a project group. Open each panel to see its summary. GitHub READMEs cannot run custom JavaScript, so these are genuine expandable panels rather than JavaScript-powered live filters.
-
-<p align="center">
-  <a href="#mobile--android">[ MOBILE / ANDROID ]</a> ·
-  <a href="#macos--desktop">[ MACOS / DESKTOP ]</a> ·
-  <a href="#web--developer-tools">[ WEB / DEVELOPER TOOLS ]</a>
-</p>
-
-### Mobile / Android
-
-<details>
-<summary><strong>01 — NetShield</strong> · Android network privacy</summary>
-
-An Android project exploring local DNS-based blocking and network privacy controls.
-
-**Technologies:** Kotlin · Jetpack Compose · Coroutines/Flow · Hilt · Room · Android `VpnService`
-
-[Browse public repositories](https://github.com/NipunChamodya?tab=repositories)
-
-</details>
-
-<details>
-<summary><strong>02 — Tailor Manager</strong> · Tailoring and rental workflows</summary>
-
-A management-app concept for tailoring measurements, rental bookings, customer records, payment tracking, and reminders.
-
-**Focus:** workflow design · local data management · customer-facing records
-
-[Browse public repositories](https://github.com/NipunChamodya?tab=repositories)
-
-</details>
-
-### macOS / Desktop
-
-<details>
-<summary><strong>03 — SinhalaPlayer</strong> · Native macOS media player concept</summary>
-
-Exploring a Mac-first media player experience with Sinhala subtitle support and a polished viewing workflow.
-
-**Exploration:** SwiftUI · macOS · media playback · subtitle workflows
-
-[Browse public repositories](https://github.com/NipunChamodya?tab=repositories)
-
-</details>
-
-### Web / Developer Tools
-
-<details>
-<summary><strong>04 — SpiderDeck</strong> · Controlled web crawling</summary>
-
-A Python project exploring controlled crawling and security-conscious URL and file-path validation.
-
-**Focus:** Python · validation · testing · safer input handling
-
-[Browse public repositories](https://github.com/NipunChamodya?tab=repositories)
-
-</details>
-
-> Project summaries describe the projects and areas of work discussed; check each repository for current implementation status. Replace any entry that does not yet have a public repository with a link to the actual project when available.
-
-## `03 / TOOLKIT`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,html,css,mysql,php,kotlin,swift,git,github,androidstudio,vscode&theme=dark" alt="Technology icons">
-</p>
-
-**Areas of interest:** Software Engineering · Application Security · Networking · Reverse Engineering · Native macOS Development
-
-## `04 / GITHUB SIGNAL`
-
-<div align="center">
-
-<a href="https://github.com/NipunChamodya">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=NipunChamodya&show_icons=true&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=C9D1D9&icon_color=60A5FA&rank_icon=github" alt="GitHub statistics">
-</a>
-<a href="https://github.com/NipunChamodya">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NipunChamodya&layout=compact&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=C9D1D9" alt="Most used languages in public repositories">
-</a>
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NipunChamodya&bg_color=0D1117&color=C9D1D9&line=60A5FA&point=7DD3FC&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph">
-
-</div>
-
-*Stats are generated by third-party services and may be cached, unavailable, or calculated differently from GitHub's own profile activity.*
-
-## `05 / PRINCIPLES`
+## `root@nck-security-lab:~$ whoami`
 
 ```text
-01  Understand the problem.
-02  Question assumptions.
-03  Test the boundaries.
-04  Read the source.
-05  Build, measure, improve.
+╭──────────────────────────────────────────────────────────╮
+│  OPERATOR : Nipun Chamodya                               │
+│  ROLE     : Software Engineering Student                 │
+│  LOCATION : Sri Lanka                                    │
+│  MISSION  : Understand systems. Find weaknesses. Build.  │
+│  STATUS   : [ ONLINE ]                                   │
+╰──────────────────────────────────────────────────────────╯
 ```
+
+I'm a final-year Software Engineering student interested in cybersecurity, systems engineering, networking, and understanding how software behaves beneath the surface.
+
+I learn by building tools, testing ideas in controlled environments, reading source code, and documenting what I discover.
+
+```bash
+$ ./mission.sh
+
+[01] Learn how systems work
+[02] Understand trust boundaries
+[03] Build practical security tools
+[04] Test in authorized environments
+[05] Document findings and improve
+```
+
+## `01 // RESEARCH INTERESTS`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `⌁` Application Security
+
+- Input validation
+- Authentication and authorization
+- Secure software design
+- Web application security
+
+</td>
+<td width="50%" valign="top">
+
+### `⌘` Systems & Networking
+
+- Network protocols
+- Linux and macOS internals
+- Network traffic analysis
+- Debugging and observability
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `⌬` Reverse Engineering
+
+- Program behavior analysis
+- Static and dynamic analysis
+- Binary analysis fundamentals
+- Technical investigation
+
+</td>
+<td width="50%" valign="top">
+
+### `⛭` Security Engineering
+
+- Python automation
+- Test harnesses
+- Local security tools
+- Reproducible experiments
+
+</td>
+</tr>
+</table>
+
+## `02 // PROJECT ARCHIVE`
+
+<details open>
+<summary><b>01 — SpiderDeck | Web Discovery & Extraction</b></summary>
+
+```text
+TYPE       : Python tooling
+INTEREST   : Web discovery / validation
+ENGINEERING: Input validation / automated tests
+```
+
+A project exploring web discovery and content extraction workflows, with an emphasis on URL validation, predictable behavior, and testing.
+
+**Explore:** [Search my repositories for SpiderDeck](https://github.com/NipunChamodya?tab=repositories&q=SpiderDeck)
+
+</details>
+
+<details>
+<summary><b>02 — NetShield | Android Network Protection</b></summary>
+
+```text
+TYPE       : Android security application
+STACK      : Kotlin / Jetpack Compose
+INTEREST   : Local DNS filtering / privacy
+```
+
+An Android security-tool project focused on local network filtering and user-controlled protection.
+
+**Explore:** [Search my repositories for NetShield](https://github.com/NipunChamodya?tab=repositories&q=NetShield)
+
+</details>
+
+<details>
+<summary><b>03 — SinhalaPlayer | Native macOS Media</b></summary>
+
+```text
+TYPE       : macOS application
+STACK      : Swift / SwiftUI
+INTEREST   : Local media / Sinhala subtitles
+```
+
+A media-player concept focused on native macOS interaction and a more convenient local subtitle workflow for Sri Lankan viewers.
+
+**Explore:** [Search my repositories for SinhalaPlayer](https://github.com/NipunChamodya?tab=repositories&q=SinhalaPlayer)
+
+</details>
+
+<details>
+<summary><b>04 — Tailor Manager | Business Workflow Software</b></summary>
+
+```text
+TYPE       : Business application
+INTEREST   : Booking / customer workflows
+ENGINEERING: Data modeling / usability
+```
+
+A software project direction for organizing tailoring and rental operations through clearer booking and customer-management workflows.
+
+**Explore:** [Search my repositories for Tailor Manager](https://github.com/NipunChamodya?tab=repositories&q=Tailor)
+
+</details>
+
+> Project descriptions represent known project directions. Check the actual repositories for implementation status and completed features.
+
+## `03 // TECH STACK`
 
 <div align="center">
 
-**BUILD · INVESTIGATE · UNDERSTAND · IMPROVE**
+**LANGUAGES**
 
-<sub>Learning in public. Building with purpose.</sub>
+<img src="https://skillicons.dev/icons?i=python,java,js,html,css,php,mysql&theme=dark" alt="Programming languages and web technologies"/>
+
+**PLATFORMS & TOOLS**
+
+<img src="https://skillicons.dev/icons?i=apple,linux,git,github,vscode,androidstudio&theme=dark" alt="Platforms and developer tools"/>
 
 </div>
+
+## `04 // LIVE TELEMETRY`
+
+<div align="center">
+
+<a href="https://github.com/NipunChamodya">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NipunChamodya&show_icons=true&hide_border=true&bg_color=050806&title_color=68E985&text_color=C8D8CC&icon_color=68E985&include_all_commits=true" alt="GitHub statistics"/>
+</a>
+
+<a href="https://github.com/NipunChamodya">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NipunChamodya&layout=compact&hide_border=true&bg_color=050806&title_color=68E985&text_color=C8D8CC" alt="Most used languages"/>
+</a>
+
+<a href="https://github.com/NipunChamodya">
+  <img width="90%" src="https://streak-stats.demolab.com?user=NipunChamodya&hide_border=true&background=050806&ring=68E985&fire=A5FFB2&currStreakLabel=68E985&sideLabels=C8D8CC&currStreakNum=C8D8CC&sideNums=C8D8CC&dates=718577" alt="GitHub contribution streak"/>
+</a>
+
+</div>
+
+## `05 // OPERATING PRINCIPLES`
+
+<details>
+<summary><b>▸ Open research protocol</b></summary>
+
+```text
+SCOPE → INSPECT → HYPOTHESIZE → TEST → DOCUMENT
+
+[+] Work on systems I own or have permission to test.
+[+] Understand the impact before running experiments.
+[+] Keep test cases reproducible.
+[+] Record limitations and unexpected behavior.
+[+] Fix problems instead of hiding them.
+```
+
+</details>
+
+## `06 // CONNECT`
+
+<div align="center">
+
+<a href="https://github.com/NipunChamodya">
+  <img src="https://img.shields.io/badge/GITHUB-EXPLORE_REPOSITORIES-68E985?style=for-the-badge&logo=github&logoColor=050806" alt="Explore GitHub repositories"/>
+</a>
+
+</div>
+
+```text
+╭────────────────────────────────────────────╮
+│  END OF SESSION                            │
+│  Curiosity is the entry point.             │
+│  Evidence is the standard.                 │
+╰────────────────────────────────────────────╯
+```
