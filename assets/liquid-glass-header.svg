@@ -1,66 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Nipun Chamodya — Software Engineering, Security and Systems</title>
-  <desc id="desc">A dark, animated liquid-glass inspired banner with translucent blue glass forms.</desc>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img">
+  <title>NCK Security Lab — Nipun Chamodya</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070B14"/>
-      <stop offset="55%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#081426"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030604"/>
+      <stop offset="55%" stop-color="#09150C"/>
+      <stop offset="100%" stop-color="#020403"/>
     </linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".20"/>
-      <stop offset="40%" stop-color="#93C5FD" stop-opacity=".10"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity=".04"/>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#68E985" stroke-opacity=".09"/>
+    </pattern>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#68E985" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#68E985" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#68E985" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#60A5FA"/>
-      <stop offset="50%" stop-color="#A5F3FC"/>
-      <stop offset="100%" stop-color="#818CF8"/>
-    </linearGradient>
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="24"/>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#020617" flood-opacity=".55"/>
-    </filter>
+
     <clipPath id="clip">
-      <rect x="1" y="1" width="1198" height="358" rx="30"/>
+      <rect x="20" y="20" width="1160" height="350" rx="14"/>
     </clipPath>
   </defs>
+
+  <rect width="1200" height="390" rx="18" fill="url(#background)"/>
+
   <g clip-path="url(#clip)">
-    <rect width="1200" height="360" rx="30" fill="url(#bg)"/>
-    <circle cx="930" cy="82" r="130" fill="#2563EB" opacity=".24" filter="url(#blur)">
-      <animate attributeName="cx" values="930;990;930" dur="11s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="82;120;82" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1060" cy="290" r="100" fill="#22D3EE" opacity=".15" filter="url(#blur)">
-      <animate attributeName="cx" values="1060;1000;1060" dur="13s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M720 0 L1200 0 L1200 360 L920 360 Q1010 220 720 0Z" fill="#FFFFFF" opacity=".025"/>
-    <g filter="url(#shadow)">
-      <rect x="770" y="60" width="315" height="230" rx="28" fill="url(#glass)" stroke="#DBEAFE" stroke-opacity=".25" transform="rotate(7 927 175)">
-        <animateTransform attributeName="transform" type="rotate" values="7 927 175;3 927 175;7 927 175" dur="10s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="830" y="36" width="270" height="210" rx="26" fill="url(#glass)" stroke="#BAE6FD" stroke-opacity=".28" transform="rotate(-8 965 141)">
-        <animateTransform attributeName="transform" type="rotate" values="-8 965 141;-4 965 141;-8 965 141" dur="12s" repeatCount="indefinite"/>
-      </rect>
-      <path d="M850 95 Q960 40 1060 98" fill="none" stroke="#FFFFFF" stroke-opacity=".32" stroke-width="2"/>
-      <path d="M875 124 Q970 80 1065 125" fill="none" stroke="url(#accent)" stroke-opacity=".65" stroke-width="2"/>
-      <circle cx="1008" cy="173" r="32" fill="#60A5FA" fill-opacity=".10" stroke="#BAE6FD" stroke-opacity=".55">
-        <animate attributeName="r" values="32;37;32" dur="5s" repeatCount="indefinite"/>
+    <rect x="20" y="20" width="1160" height="350" fill="url(#grid)"/>
+
+    <rect x="20" y="20" width="1160" height="56" fill="#09120C"/>
+    <path d="M20 76H1180" stroke="#68E985" stroke-opacity=".4"/>
+
+    <circle cx="47" cy="48" r="5" fill="#68E985"/>
+    <circle cx="65" cy="48" r="5" fill="#68E985" opacity=".55"/>
+    <circle cx="83" cy="48" r="5" fill="#68E985" opacity=".25"/>
+
+    <text x="105" y="53" fill="#9BBCA2" font-family="monospace" font-size="14" letter-spacing="2">
+      NCK / SECURITY LAB
+    </text>
+
+    <text x="1150" y="53" text-anchor="end" fill="#68E985" font-family="monospace" font-size="12">
+      SYSTEM STATUS: ACTIVE
+    </text>
+
+    <text x="66" y="125" fill="#68E985" font-family="monospace" font-size="13" letter-spacing="3">
+      SOFTWARE ENGINEERING / SECURITY RESEARCH
+    </text>
+
+    <text x="62" y="192" fill="#E7F6EA" font-family="monospace" font-size="52" font-weight="700" letter-spacing="-2">
+      NIPUN CHAMODYA
+    </text>
+
+    <rect x="65" y="215" width="8" height="25" fill="#68E985">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="86" y="234" fill="#A5FFB2" font-family="monospace" font-size="20" letter-spacing="3">
+      CYBERSECURITY RESEARCHER
+    </text>
+
+    <text x="66" y="276" fill="#8EA895" font-family="monospace" font-size="13">
+      APPLICATION SECURITY / NETWORKING / REVERSE ENGINEERING
+    </text>
+
+    <g transform="translate(1000 190)">
+      <circle r="78" fill="none" stroke="#68E985" stroke-opacity=".15"/>
+      <circle r="59" fill="none" stroke="#68E985" stroke-opacity=".65" stroke-dasharray="4 9">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
       </circle>
-      <path d="M994 173 l10 10 20 -23" fill="none" stroke="#BAE6FD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle r="39" fill="#68E985" fill-opacity=".05" stroke="#68E985" stroke-opacity=".65"/>
+      <path d="M-67 0H67M0 -67V67M-46 -46L46 46M46 -46L-46 46" stroke="#68E985" stroke-opacity=".25"/>
+      <circle r="7" fill="#68E985" filter="url(#glow)">
+        <animate attributeName="r" values="5;9;5" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
     </g>
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-      <text x="76" y="86" fill="#7DD3FC" font-size="16" letter-spacing="4">NCK / SYSTEMS</text>
-      <text x="72" y="158" fill="#F8FAFC" font-size="51" font-weight="700" letter-spacing="-1">NIPUN</text>
-      <text x="72" y="214" fill="#F8FAFC" font-size="51" font-weight="700" letter-spacing="-1">CHAMODYA</text>
-      <rect x="76" y="242" width="64" height="3" rx="1.5" fill="url(#accent)">
-        <animate attributeName="width" values="64;105;64" dur="4s" repeatCount="indefinite"/>
-      </rect>
-      <text x="76" y="278" fill="#CBD5E1" font-size="17">SOFTWARE ENGINEERING  /  SECURITY  /  SYSTEMS</text>
-      <text x="76" y="313" fill="#64748B" font-size="13">BUILD WITH CURIOSITY. DEBUG WITH PURPOSE.</text>
-    </g>
-    <rect x="1" y="1" width="1198" height="358" rx="30" fill="none" stroke="#E2E8F0" stroke-opacity=".18"/>
+
+    <rect x="20" y="82" width="1160" height="2" fill="url(#scan)">
+      <animate attributeName="y" values="82;350;82" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <path d="M20 337H1180" stroke="#68E985" stroke-opacity=".25"/>
+
+    <text x="45" y="356" fill="#55745D" font-family="monospace" font-size="11">
+      [ LAB MODE: ETHICAL ]
+    </text>
+
+    <text x="1150" y="356" text-anchor="end" fill="#55745D" font-family="monospace" font-size="11">
+      BUILD / TEST / DOCUMENT / REPEAT
+    </text>
   </g>
+
+  <rect x="20" y="20" width="1160" height="350" rx="14" fill="none" stroke="#68E985" stroke-opacity=".4"/>
 </svg>
